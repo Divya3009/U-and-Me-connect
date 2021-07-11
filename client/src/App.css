@@ -1,0 +1,10 @@
+.App {
+  padding: 1rem 0 0;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image:url('https://c8.alamy.com/comp/CC5596/water-droplets-set-on-a-sparkly-purple-background-CC5596.jpg') ;
+}
