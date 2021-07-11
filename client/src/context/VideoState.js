@@ -3,7 +3,7 @@ import VideoContext from "./VideoContext";
 import { io } from "socket.io-client";
 import Peer from "simple-peer";
 
-const URL = "https://fathomless-tundra-67025.herokuapp.com/";
+const URL = "https://u-and-me-connect.herokuapp.com/";
 // const SERVER_URL = "http://localhost:5000/";
 
 export const socket = io(URL);

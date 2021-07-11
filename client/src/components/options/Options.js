@@ -107,7 +107,7 @@ const Options = () => {
             {/* // for sharing the code obtained  */}
           <div className={classes.share_social}>
             <WhatsappShareButton
-              url={`https://video-chat-mihir.web.app/`}
+              url={`https://u-and-me-connect.netlify.app/`}
               title={`Join this meeting with the given code :` + me}
               separator="Link: "
               className={classes.share_icon}
@@ -115,15 +115,15 @@ const Options = () => {
               <WhatsappIcon size={26} round />
             </WhatsappShareButton>
             <FacebookShareButton
-              url={`https://video-chat-mihir.web.app/`}
-              title={`Join this meeting with the given code ""\n`}
+              url={`https://u-and-me-connect.netlify.app/`}
+              title={`Join this meeting with the given code :` + me}
               className={classes.share_icon}
             >
               <FacebookIcon size={26} round />
             </FacebookShareButton>
             <TwitterShareButton
-              url={`https://video-chat-mihir.web.app/`}
-              title={`Join this meeting with the given code  \n`}
+              url={`https://u-and-me-connect.netlify.app/`}
+              title={`Join this meeting with the given code  :` + me}
               className={classes.share_icon}
             >
               <TwitterIcon size={26} round className={classes.share_border} />
